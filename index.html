@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Glass &amp; Glow - Modern Glassware</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;600&amp;family=Hanken+Grotesk:wght@400;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "secondary": "#3a5f94",
+                        "outline-variant": "#d1c5b4",
+                        "tertiary-container": "#8fa5d6",
+                        "on-primary-fixed": "#261900",
+                        "inverse-primary": "#e9c176",
+                        "surface-tint": "#775a19",
+                        "surface-container-lowest": "#ffffff",
+                        "surface-dim": "#d9dadb",
+                        "on-surface-variant": "#4e4639",
+                        "inverse-on-surface": "#f0f1f2",
+                        "primary-fixed": "#ffdea5",
+                        "on-tertiary-fixed": "#001a41",
+                        "surface": "#f8f9fa",
+                        "on-secondary": "#ffffff",
+                        "on-secondary-container": "#294f83",
+                        "primary": "#775a19",
+                        "surface-container": "#edeeef",
+                        "tertiary-fixed": "#d8e2ff",
+                        "surface-container-low": "#f3f4f5",
+                        "surface-container-high": "#e7e8e9",
+                        "on-tertiary-fixed-variant": "#304671",
+                        "outline": "#7f7667",
+                        "on-error": "#ffffff",
+                        "on-primary": "#ffffff",
+                        "background": "#f8f9fa",
+                        "tertiary-fixed-dim": "#b0c6f9",
+                        "on-primary-container": "#4e3700",
+                        "primary-container": "#c5a059",
+                        "secondary-fixed-dim": "#a7c8ff",
+                        "secondary-container": "#9fc2fe",
+                        "on-background": "#191c1d",
+                        "primary-fixed-dim": "#e9c176",
+                        "on-tertiary-container": "#233a65",
+                        "surface-bright": "#f8f9fa",
+                        "on-tertiary": "#ffffff",
+                        "on-primary-fixed-variant": "#5d4201",
+                        "secondary-fixed": "#d5e3ff",
+                        "on-surface": "#191c1d",
+                        "on-secondary-fixed-variant": "#1f477b",
+                        "surface-container-highest": "#e1e3e4",
+                        "tertiary": "#485e8b",
+                        "error": "#ba1a1a",
+                        "on-secondary-fixed": "#001b3c",
+                        "inverse-surface": "#2e3132",
+                        "surface-variant": "#e1e3e4",
+                        "on-error-container": "#93000a",
+                        "error-container": "#ffdad6"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "unit": "8px",
+                        "container-max": "1280px",
+                        "section-gap": "120px",
+                        "margin-desktop": "64px",
+                        "gutter": "24px",
+                        "margin-mobile": "20px"
+                    },
+                    "fontFamily": {
+                        "headline-lg": ["EB Garamond"],
+                        "headline-sm": ["EB Garamond"],
+                        "headline-md": ["EB Garamond"],
+                        "body-lg": ["Hanken Grotesk"],
+                        "display-lg": ["EB Garamond"],
+                        "label-md": ["Hanken Grotesk"],
+                        "headline-lg-mobile": ["EB Garamond"],
+                        "body-md": ["Hanken Grotesk"]
+                    },
+                    "fontSize": {
+                        "headline-lg": ["40px", {"lineHeight": "48px", "fontWeight": "400"}],
+                        "headline-sm": ["24px", {"lineHeight": "32px", "fontWeight": "400"}],
+                        "headline-md": ["32px", {"lineHeight": "40px", "fontWeight": "400"}],
+                        "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}],
+                        "display-lg": ["64px", {"lineHeight": "72px", "letterSpacing": "-0.02em", "fontWeight": "400"}],
+                        "label-md": ["14px", {"lineHeight": "20px", "letterSpacing": "0.05em", "fontWeight": "600"}],
+                        "headline-lg-mobile": ["32px", {"lineHeight": "40px", "fontWeight": "400"}],
+                        "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}]
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-background text-on-background font-body-md">
+<!-- TopNavBar -->
+<header class="bg-surface dark:bg-on-background w-full sticky top-0 z-50 border-b border-outline-variant dark:border-outline">
+<div class="flex justify-between items-center max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop py-4">
+<div class="font-headline-md text-headline-md text-primary dark:text-primary-fixed tracking-tight">
+                Glass &amp; Glow
+            </div>
+<nav class="hidden md:flex space-x-8">
+<a class="text-on-surface-variant dark:text-on-surface-variant font-medium hover:text-primary dark:hover:text-primary-fixed transition-colors duration-300 font-label-md text-label-md" href="#">Water</a>
+<a class="text-on-surface-variant dark:text-on-surface-variant font-medium hover:text-primary dark:hover:text-primary-fixed transition-colors duration-300 font-label-md text-label-md" href="#">Wine</a>
+<a class="text-on-surface-variant dark:text-on-surface-variant font-medium hover:text-primary dark:hover:text-primary-fixed transition-colors duration-300 font-label-md text-label-md" href="#">Whiskey</a>
+<a class="text-on-surface-variant dark:text-on-surface-variant font-medium hover:text-primary dark:hover:text-primary-fixed transition-colors duration-300 font-label-md text-label-md" href="#">Tumblers</a>
+</nav>
+<div class="flex items-center space-x-4">
+<button class="text-primary dark:text-primary-fixed hover:text-primary-container transition-colors duration-300 opacity-80 hover:opacity-100 scale-95 hover:scale-100 transition-all">
+<span class="material-symbols-outlined" data-icon="shopping_cart">shopping_cart</span>
+</button>
+</div>
+</div>
+</header>
+<main>
+<!-- Hero Section -->
+<section class="w-full relative bg-surface-container-low min-h-[819px] flex items-center justify-center overflow-hidden">
+<div class="absolute inset-0 z-0">
+<img alt="Minimalist glassware setup" class="w-full h-full object-cover opacity-90" data-alt="A highly detailed, editorial-style photograph of exquisite, minimalist crystal glassware arranged on a pristine, light-gray studio backdrop. The lighting is soft, high-key, and diffused, creating elegant reflections and highlighting the impeccable clarity and craftsmanship of the glass. Subtle warm gold accents are subtly reflected in the facets. The overall composition is symmetrical, serene, and deeply luxurious, embodying a calm, gallery-like aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDUa1H43m6Pq9Pdh08h3cRUWcti_IVQodZRbTNruf4a3MIMG4l4cS3IN8DFH5g91GabMPCSyflHTYNlBV4JL4L1hukCfHF0Y3B_ZtRYV8qNtJsVWNTRHtDRAR_dS6k9aSn7BLMqcKvYSEl1iOzbj9tyCf6bI1TyODgFZF0CWd9rOFOuAuxr8SBCUmrcr5W9_GsjvCn2FuhzhDTPYkau9_DOyVfUQCPQnGnfKHDqsqkMDA7fpkf8Rok052Ab3De5xmW3iDl2Lcjtmfl0"/>
+</div>
+<div class="relative z-10 max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop text-center">
+<h1 class="font-display-lg text-display-lg text-on-surface mb-6 max-w-3xl mx-auto">
+                    Clarity in Every Pour.
+                </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant mb-10 max-w-xl mx-auto">
+                    Experience the quiet luxury of handcrafted, minimalist glassware designed to elevate your daily rituals.
+                </p>
+<a class="inline-block bg-primary text-on-primary font-label-md text-label-md uppercase tracking-wider py-4 px-8 rounded hover:bg-primary-container transition-colors duration-300" href="#">
+                    Explore the Collection
+                </a>
+</div>
+</section>
+<!-- Best Sellers Grid -->
+<section class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop py-section-gap">
+<div class="text-center mb-16">
+<h2 class="font-headline-lg text-headline-lg text-primary mb-4">Curated Classics</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">Our most loved minimalist designs.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter">
+<!-- Product Card 1 -->
+<div class="group cursor-pointer">
+<div class="bg-surface border border-outline-variant rounded mb-4 overflow-hidden aspect-[3/4] relative transition-all duration-300 group-hover:shadow-[0_20px_40px_-15px_rgba(0,0,0,0.08)]">
+<img alt="Crystal Wine Glass" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="A single, elegant crystal wine glass with an impossibly thin stem, photographed against a pure white background. The lighting highlights the flawless transparency and delicate curves of the bowl. The aesthetic is clean, modern, and highly sophisticated, reflecting a premium editorial style." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBkFGkvvzpEGzwtCnVUrbhC0MR3kyb0izdd5oX6HMzl42ImujeKLItKwJUlZzIiwdXQEo5OprMdBmCwvs_xew1fvuxW3h5vzLWIomyv6HwPPZslVvZ4IHfJFJZlE1YfTgLCheJT0gJVJwEdrphx6hdLAmuPpX7pe8RvYyvrRqOBNBCGDF3davJLkpBtOhNVutgK1olxtRxIdO1CgrmQ7oz9jAVTYjc29EnoR5lN0P4kNsMfStcAcfnhvn3silS4_inIb_sXAbuvjmlq"/>
+</div>
+<div class="text-center">
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-1">The Aether Wine Glass</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">$45.00</p>
+</div>
+</div>
+<!-- Product Card 2 -->
+<div class="group cursor-pointer">
+<div class="bg-surface border border-outline-variant rounded mb-4 overflow-hidden aspect-[3/4] relative transition-all duration-300 group-hover:shadow-[0_20px_40px_-15px_rgba(0,0,0,0.08)]">
+<img alt="Minimalist Tumbler" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="A short, perfectly cylindrical glass tumbler resting on a light stone surface. The minimalist design emphasizes simple geometry and pristine clarity. Soft, natural daylight casts gentle shadows, highlighting a sophisticated, quiet luxury aesthetic typical of high-end home decor magazines." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDUekNA5_8aaTu399l5n5bpIFRfcyeFuG8KExIGH_TAKjnR4mGRFCtHEBEXvOUUV3dX9RwpTVwVc4MR5qyxf1c8m9ylSis02CNlrvGG2JV6ILRLbx0m34s5A_R8aEAivxLmGQu6MSGchN85lTmIIq6bj6fexFiU-09dMJbtxUQeaQZU7B8yUzt9FbF8lxxUOAEzui8-aGMkgcCqtOI3XFFxnt14jVQ7wFANCqG-Gpif9-YMqQbknMn5v-0SEVo7JxarlktBXSmGL3k0"/>
+</div>
+<div class="text-center">
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-1">Cylinder Tumbler Set</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">$60.00</p>
+</div>
+</div>
+<!-- Product Card 3 -->
+<div class="group cursor-pointer">
+<div class="bg-surface border border-outline-variant rounded mb-4 overflow-hidden aspect-[3/4] relative transition-all duration-300 group-hover:shadow-[0_20px_40px_-15px_rgba(0,0,0,0.08)]">
+<img alt="Whiskey Decanter" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="A heavy-bottomed, geometric crystal whiskey decanter with a matching stopper, showcased on a minimalist light-gray pedestal. The lighting catches the sharp facets of the crystal, creating a brilliant display of refraction. The mood is authoritative, classic yet distinctly modern and premium." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBOH78r7qKw9AfCmTwn-lZ1NDlZCfDAS9Nk8OK1CiybB52yFy5ZCc3J5vCVUzUSPGani670hBs2nQbfON42iFBLzMtU2bquPYtiCWZeazIfRNygc4YVIotXLQcgeAojIHlw4WKJS9q9YtJU_Ebs8yFKOe8E6XydI_qSGJe3E6hCj9FPiZ_rYI6rTmXTY8VlteJzcUGyWjW4MKYVOpXXGoGfiGnCZhPJPDLHPhG4JIWao6-KB-AAnrmaraUWqHaih8jLzBq4UvcAiXn9"/>
+</div>
+<div class="text-center">
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-1">Prism Decanter</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">$120.00</p>
+</div>
+</div>
+<!-- Product Card 4 -->
+<div class="group cursor-pointer">
+<div class="bg-surface border border-outline-variant rounded mb-4 overflow-hidden aspect-[3/4] relative transition-all duration-300 group-hover:shadow-[0_20px_40px_-15px_rgba(0,0,0,0.08)]">
+<img alt="Water Carafe" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="A sleek, tall glass water carafe with a subtle gold rim, standing beside a single matching glass. The composition is starkly minimalist against a soft, off-white background. The image evokes a sense of purity, calm, and refined everyday luxury." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCj6IlHr8Bv2qwuwDAAR2UfVhjhPB1oK6vovKpOwsdbkiR9q0nFtkCQkdWaMIOe7nYy2CkNiKVPw89XfPcSyalKFk2g-8F8Y_aj2OCdy3xG17sLFHDnVuHl2eFoiU6azcvuzwTYM54Jyr88xgutDiOcgV5QtOleY3NtwVenZs2Oj6ZgmRJJlKaQtkvFiODIO1VyOgcSibEWi6qLK4U9yZLmOMMKF5T4DqdidU4KwvLZbowGGZdiZjTK_t1MeUDJ87nfHOULa9LIWNTe"/>
+</div>
+<div class="text-center">
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-1">Aura Carafe</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">$85.00</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Our Philosophy (Asymmetric Layout) -->
+<section class="bg-surface-container py-section-gap">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-gutter items-center">
+<div class="md:col-span-5 md:col-start-2 order-2 md:order-1 mt-10 md:mt-0">
+<h2 class="font-headline-lg text-headline-lg text-on-surface mb-6">Form Follows Fluid.</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant mb-6">
+                            We believe that a glass should never compete with the beverage it holds. Our design philosophy strips away the unnecessary, leaving only absolute clarity and perfect balance. 
+                        </p>
+<p class="font-body-md text-body-md text-on-surface-variant mb-8">
+                            Every piece is masterfully hand-blown, treating high-end glassware not merely as products, but as functional art pieces designed to elevate your environment.
+                        </p>
+<a class="inline-flex items-center text-primary font-label-md text-label-md uppercase tracking-wider hover:text-primary-container transition-colors" href="#">
+                            Read Our Story <span class="material-symbols-outlined ml-2 text-sm" data-icon="arrow_forward">arrow_forward</span>
+</a>
+</div>
+<div class="md:col-span-5 md:col-start-8 order-1 md:order-2">
+<div class="aspect-square bg-surface border border-outline-variant p-4 rounded">
+<img alt="Glassblowing process" class="w-full h-full object-cover" data-alt="A close-up, highly detailed image of a molten glob of glass being shaped on a blowpipe by a master artisan. The background is dark, emphasizing the glowing, intense orange and gold heat of the glass. The focus is sharp on the texture of the hot material, conveying raw craftsmanship and dedication to quality." src="https://lh3.googleusercontent.com/aida-public/AB6AXuD_QyOB4V6Xc5tpfX1IW46LgDzIEFbyjnmX6eXdidvrfYdvOI7gvGJ0BC3JhC_5I0e3xnu3rgsVEDz8UdsPqGV8OrIb_K12LYhbCekVmuo2lA1fd5Ydl7AkhjCHGwm5oUu-ma8Ygpl7koyYdneBssLsDsl7N7NGpp73q5ASybtHH347weLCNHJf1DfWDaBeWrvXEXuEc-Y4IhOmJfyFskl1OdxM6NEfWbtFUUrPsC-n3e3rpaCNWDzRVsn5RNQWeh6LcqU-1peMhkju"/>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Delivery Guarantee -->
+<section class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop py-section-gap text-center">
+<div class="max-w-2xl mx-auto">
+<span class="material-symbols-outlined text-primary text-4xl mb-6" data-icon="local_shipping">local_shipping</span>
+<h2 class="font-headline-md text-headline-md text-on-surface mb-4">Arrives Pristine. Guaranteed.</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant mb-8">
+                    We understand the fragility of our art. Every order is secured in bespoke, impact-resistant packaging. Should a piece arrive anything less than perfect, we will replace it immediately, no questions asked.
+                </p>
+<div class="flex justify-center space-x-8 text-on-surface-variant font-label-md text-label-md uppercase tracking-wider">
+<div class="flex items-center">
+<span class="material-symbols-outlined mr-2 text-primary" data-icon="verified">verified</span> Fully Insured
+                    </div>
+<div class="flex items-center">
+<span class="material-symbols-outlined mr-2 text-primary" data-icon="recycling">recycling</span> Eco-Friendly Packing
+                    </div>
+</div>
+</div>
+</section>
+<!-- Newsletter -->
+<section class="bg-surface border-t border-b border-outline-variant py-section-gap">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop text-center">
+<h2 class="font-headline-sm text-headline-sm text-primary mb-4">Join The Gallery</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mb-8 max-w-md mx-auto">
+                    Subscribe for early access to limited editions and insights into the art of glassware.
+                </p>
+<form class="max-w-md mx-auto flex flex-col md:flex-row gap-4">
+<input class="flex-grow bg-transparent border-0 border-b border-outline-variant focus:ring-0 focus:border-primary font-body-md text-on-surface placeholder:text-on-surface-variant/50 pb-2 px-0 transition-colors" placeholder="Email Address" type="email"/>
+<button class="bg-primary text-on-primary font-label-md text-label-md uppercase tracking-wider py-3 px-6 rounded hover:bg-primary-container transition-colors duration-300 whitespace-nowrap" type="submit">
+                        Subscribe
+                    </button>
+</form>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-surface-container dark:bg-surface-container-high w-full border-t border-outline-variant dark:border-outline">
+<div class="max-w-container-max mx-auto px-margin-desktop py-section-gap grid grid-cols-1 md:grid-cols-4 gap-gutter">
+<div class="col-span-1 md:col-span-1">
+<span class="font-headline-sm text-headline-sm text-primary dark:text-primary-fixed mb-4 block">Glass &amp; Glow</span>
+<p class="font-body-md text-body-md text-on-surface-variant dark:text-on-surface-variant mt-4">
+                    © 2024 Glass &amp; Glow. All Rights Reserved.
+                </p>
+</div>
+<div class="col-span-1 md:col-span-3 flex flex-col md:flex-row justify-end md:space-x-12 space-y-4 md:space-y-0 font-label-md text-label-md">
+<a class="text-on-surface-variant dark:text-on-surface-variant hover:text-primary dark:hover:text-primary-fixed underline underline-offset-4 transition-colors duration-200" href="#">Delivery Safety</a>
+<a class="text-on-surface-variant dark:text-on-surface-variant hover:text-primary dark:hover:text-primary-fixed underline underline-offset-4 transition-colors duration-200" href="#">Product Care</a>
+<a class="text-on-surface-variant dark:text-on-surface-variant hover:text-primary dark:hover:text-primary-fixed underline underline-offset-4 transition-colors duration-200" href="#">Contact Us</a>
+<a class="text-on-surface-variant dark:text-on-surface-variant hover:text-primary dark:hover:text-primary-fixed underline underline-offset-4 transition-colors duration-200" href="#">Privacy Policy</a>
+</div>
+</div>
+</footer>
+</body></html>
